@@ -8,3 +8,11 @@ backend:
       user: postgres
       # Replace the password below with your postgresql password:
       password: secret
+auth:
+  # see https://backstage.io/docs/auth/ to learn about auth providers
+  environment: development
+  providers:
+    github:
+      development:
+        clientId: c96fbe538832f9914469
+        clientSecret: 816903cb38918a709d002997822642cfdc1965a6
