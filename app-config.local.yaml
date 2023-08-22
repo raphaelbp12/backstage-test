@@ -19,4 +19,4 @@ auth:
 integrations:
   github:
     - host: github.com
-      token: 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 # this should be the token from GitHub
+      token: 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 # this should be the token from GitHub

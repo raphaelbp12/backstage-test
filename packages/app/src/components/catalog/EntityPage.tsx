@@ -58,6 +58,10 @@ import {
 import { TechDocsAddons } from '@backstage/plugin-techdocs-react';
 import { ReportIssue } from '@backstage/plugin-techdocs-module-addons-contrib';
 
+import {
+  GithubIssuesPage,
+} from '@backstage/plugin-github-issues';
+
 const techdocsContent = (
   <EntityTechdocsContent>
     <TechDocsAddons>
@@ -148,6 +152,10 @@ const serviceEntityPage = (
 
     <EntityLayout.Route path="/ci-cd" title="CI/CD">
       {cicdContent}
+    </EntityLayout.Route>
+
+    <EntityLayout.Route path="github-issues" title="GitHub Issues">
+      <GithubIssuesPage />
     </EntityLayout.Route>
 
     <EntityLayout.Route path="/api" title="API">

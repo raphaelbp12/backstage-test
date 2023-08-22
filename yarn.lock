@@ -2767,6 +2767,25 @@
     luxon "^3.0.0"
     react-use "^17.2.4"
 
+"@backstage/plugin-github-issues@^0.2.11":
+  version "0.2.11"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-github-issues/-/plugin-github-issues-0.2.11.tgz#e3be07d5a345a416056b274f134a393b54eb6e9a"
+  integrity sha512-i80BVsNIf5L3XGWaBOnF4FoiIXV2q9RFZM4g2bhoP0DG9d1kzkDTPcKuNYfTArSqLB6J3IRL9Fr3xu0dJi8qQA==
+  dependencies:
+    "@backstage/catalog-model" "^1.4.1"
+    "@backstage/core-components" "^0.13.4"
+    "@backstage/core-plugin-api" "^1.5.3"
+    "@backstage/errors" "^1.2.1"
+    "@backstage/integration" "^1.6.1"
+    "@backstage/plugin-catalog-react" "^1.8.2"
+    "@backstage/theme" "^0.4.1"
+    "@material-ui/core" "^4.12.4"
+    "@material-ui/icons" "^4.9.1"
+    "@material-ui/lab" "4.0.0-alpha.61"
+    luxon "^3.0.0"
+    octokit "^2.0.4"
+    react-use "^17.4.0"
+
 "@backstage/plugin-org@^0.6.11":
   version "0.6.12"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-org/-/plugin-org-0.6.12.tgz#894f191c137f6d650d160b6bed196ca973ce61b9"
@@ -5307,7 +5326,7 @@
     react-double-scrollbar "0.0.15"
     uuid "^3.4.0"
 
-"@material-ui/core@^4.12.2":
+"@material-ui/core@^4.12.2", "@material-ui/core@^4.12.4":
   version "4.12.4"
   resolved "https://registry.yarnpkg.com/@material-ui/core/-/core-4.12.4.tgz#4ac17488e8fcaf55eb6a7f5efb2a131e10138a73"
   integrity sha512-tr7xekNlM9LjA6pagJmL8QCgZXaubWUwkJnoYcMKd4gw/t4XiyvnTkjdGrUVicyB2BsdaAv1tvow45bPM4sSwQ==
@@ -7850,7 +7869,7 @@
   resolved "https://registry.yarnpkg.com/@types/range-parser/-/range-parser-1.2.4.tgz#cd667bcfdd025213aafb7ca5915a932590acdcdc"
   integrity sha512-EEhsLsD6UsDM1yFhAvy0Cjr6VwmpMWqFBCb9w07wVugF7w9nfajxLuVmngTIpgS6svCnm6Vaw+MZhoDCKnOfsw==
 
-"@types/react-dom@*", "@types/react-dom@<18.0.0", "@types/react-dom@^17":
+"@types/react-dom@*", "@types/react-dom@<18.0.0":
   version "17.0.20"
   resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-17.0.20.tgz#e0c8901469d732b36d8473b40b679ad899da1b53"
   integrity sha512-4pzIjSxDueZZ90F52mU3aPoogkHIoSIDG+oQ+wQK7Cy2B9S+MvOqY0uEA/qawKz381qrEDkvpwyt8Bm31I8sbA==
@@ -17522,7 +17541,7 @@ octokit-plugin-create-pull-request@^3.10.0:
   dependencies:
     "@octokit/types" "^6.8.2"
 
-octokit@^2.0.0:
+octokit@^2.0.0, octokit@^2.0.4:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/octokit/-/octokit-2.1.0.tgz#93863ce6630d358327d3959ca5d08a97fd3606b2"
   integrity sha512-Pxi6uKTjBRZWgAwsw1NgHdRlL+QASCN35OYS7X79o7PtBME0CLXEroZmPtEwlWZbPTP+iDbEy2wCbSOgm0uGIQ==
@@ -19389,7 +19408,7 @@ react-universal-interface@^0.6.2:
   resolved "https://registry.yarnpkg.com/react-universal-interface/-/react-universal-interface-0.6.2.tgz#5e8d438a01729a4dbbcbeeceb0b86be146fe2b3b"
   integrity sha512-dg8yXdcQmvgR13RIlZbTRQOoUrDciFVoSBZILwjE2LFISxZZ8loVJKAkuzswl5js8BHda79bIb2b84ehU8IjXw==
 
-react-use@^17.2.4, react-use@^17.3.2:
+react-use@^17.2.4, react-use@^17.3.2, react-use@^17.4.0:
   version "17.4.0"
   resolved "https://registry.yarnpkg.com/react-use/-/react-use-17.4.0.tgz#cefef258b0a6c534a5c8021c2528ac6e1a4cdc6d"
   integrity sha512-TgbNTCA33Wl7xzIJegn1HndB4qTS9u03QUwyNycUnXaweZkE4Kq2SB+Yoxx8qbshkZGYBDvUXbXWRUmQDcZZ/Q==
