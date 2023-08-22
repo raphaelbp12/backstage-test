@@ -16,3 +16,7 @@ auth:
       development:
         clientId: c96fbe538832f9914469
         clientSecret: 816903cb38918a709d002997822642cfdc1965a6
+integrations:
+  github:
+    - host: github.com
+      token: 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 # this should be the token from GitHub
