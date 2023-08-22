@@ -13,3 +13,4 @@ yarn dev
 
 * [Backstage Overview](https://backstage.spotify.com/blog/resource/steal-this-deck/)
 * [Setup Initial App](https://backstage.spotify.com/learn/standing-up-backstage/standing-up-backstage/1-intro/)
+* [Create Plugin](https://backstage.io/docs/plugins/create-a-plugin/#create-a-plugin)

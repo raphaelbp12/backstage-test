@@ -35,6 +35,7 @@ import { RequirePermission } from '@backstage/plugin-permission-react';
 import { catalogEntityCreatePermission } from '@backstage/plugin-catalog-common/alpha';
 import { githubAuthApiRef } from '@backstage/core-plugin-api';
 import { SignInProviderConfig, SignInPage } from '@backstage/core-components';
+import { FindOpenIssuesPage } from '@internal/plugin-find-open-issues';
 
 const githubProvider: SignInProviderConfig = {
   id: 'github-auth-provider',
@@ -111,6 +112,7 @@ const routes = (
     </Route>
     <Route path="/settings" element={<UserSettingsPage />} />
     <Route path="/catalog-graph" element={<CatalogGraphPage />} />
+    <Route path="/find-open-issues" element={<FindOpenIssuesPage />} />
   </FlatRoutes>
 );
 
